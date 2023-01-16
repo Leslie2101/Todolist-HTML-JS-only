@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatitble" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Document</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="style.css"/>
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+        rel="stylesheet"
+        />
+    </head>
+    <body>
+
+        <!-- Add information todo, date, time -->
+        <div class= "container border rounded">
+            <h3 class="text-center text-muted mb-4"> Todo List </h3>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4 border p-4">
+                <div>
+                    <form id="todo-form" >
+                        <input id="titleInput" placeholder="Enter Todo" class="form-control" required><br>
+                        <div class="d-flex">
+                            <input id="dateInput" type="date" class="form-control"><br>
+                            <input id="timeInput" type="time" class="form-control">
+                            
+                        </div>
+                        <br>
+                    <div id="buttons" class="text-center">
+                        <button id="submit" type="submit" class="mx-auto btn btn-primary" value="Submit" > Add Todo </button>
+                    </div>
+                    </form>
+
+                </div>
+            </div>
+
+            
+
+            <!-- Todo List -->
+            <ul class="col-12 col-md-8 col-lg-8 border rounded p-4" id="todoList">
+                <!-- Filter and Sort -->
+            
+                <div class="d-flex justify-content-end align-items-center mb-4 pt-2 pb-3">
+                <p class="small mb-0 me-2 text-muted">Filter</p>
+                <select class="select">
+                  <option value="1">All</option>
+                  <option value="2">Completed</option>
+                  <option value="3">Active</option>
+                  <option value="4">Has due date</option>
+                </select>
+                <p class="small mb-0 ms-4 me-2 text-muted">Sort</p>
+                <select class="select">
+                  <option value="1">Added date</option>
+                  <option value="2">Due date</option>
+                </select>
+                <a href="#!" style="color: #23af89;" data-mdb-toggle="tooltip" title="Ascending"><i
+                    class="fas fa-sort-amount-down-alt ms-2"></i></a>
+            </div>
+            </ul>
+
+        </div>
+        
+        <!-- Javascript -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <!-- MDB -->
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+        ></script>
+
+        <script type="text/javascript" src="script.js"></script>
+            
+
+    </body>
+</html>

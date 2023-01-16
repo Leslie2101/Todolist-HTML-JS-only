@@ -1,0 +1,16 @@
+.selected {
+    background-color: aquamarine;
+}
+
+.checked {
+    background-color: purple;
+}
+.checked h4 {
+    text-decoration: line-through;
+}
+
+
+
+.cancelbutton{
+    background-color: red;
+}
