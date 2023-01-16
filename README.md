@@ -6,6 +6,7 @@
 
 <h2> Features </h2>
 <ol> Add, delete and edit todo-items </ol>
+<ol> Show remaining times until due date </ol>
 <ol> Demo link: https://leslie2101.github.io/Todolist-HTML-JS-only/ </ol>
 
 
