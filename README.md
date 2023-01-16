@@ -1,7 +1,7 @@
 # Todolist-HTML-JS-only
 
 <h2> Description </h2>
-<ol> A todolist used HTML and Javascript</ol>
+<ol> A todolist using HTML and Javascript</ol>
 <ol> Preferences: https://youtu.be/tzHhZH49sb </ol>
 
 <h2> Features </h2>
